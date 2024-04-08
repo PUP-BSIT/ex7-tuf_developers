@@ -39,9 +39,9 @@ body {
 }
 .gallery h2 {
     font-style: italic;
-    background-color: rgb(255, 208, 224); /* Same color as .header background */
+    background-color: rgb(255, 208, 224); 
     text-align: center;
-    padding: 10px; /* Optional: add padding to match the styling */
+    padding: 10px;
 }
 
 
