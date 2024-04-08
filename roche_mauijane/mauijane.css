@@ -9,7 +9,7 @@ body {
     background-image: url(./header\ \(2\).png);
     text-align: center;
     padding: 20px 0;
-    
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px hwb(0 100% 0%), 0 0 5px rgb(255, 255, 255)
 }
 
 .container {
@@ -30,6 +30,7 @@ body {
     border-radius: 20px;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px hwb(312 84% 1%), 0 0 5px rgb(251, 191, 237);
 }
 
 .gallery {  
@@ -42,8 +43,8 @@ body {
     background-color: #ffd1e0; 
     text-align: center;
     padding: 10px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px hwb(0 100% 0%), 0 0 5px rgb(255, 255, 255)
 }
-
 
 .images {
     display: flex;
