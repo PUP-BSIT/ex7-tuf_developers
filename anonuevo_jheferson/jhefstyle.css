@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0); 
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.my_hobbies,
+.my_works {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.my_works {
+    border: 2px solid #ccc;
+}
+
+.my_works ol {
+    list-style-type: none;
+}
+
+.my_works ol li {
+    margin-bottom: 10px;
+    counter-increment: my-counter; 
+}
+
+.my_works ol li::before {
+    content: counter(my-counter); 
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.testimonials {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+#gallery {
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    justify-items: center;
+}
+
+.gallery-images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
