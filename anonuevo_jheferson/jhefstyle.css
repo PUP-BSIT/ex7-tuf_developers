@@ -1,73 +1,87 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.header {
-    background-image: url('bg.jpg');
-    background-size: cover;
-    background-position: center;
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.header{
+    background-color: #007bff;
+    color: #fff;
     padding: 20px;
     text-align: center;
-    color: rgb(0, 0, 0); 
 }
 
-
-.container {
+.container{
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
-}
-
-.my_hobbies,
-.my_works {
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.my_works {
-    border: 2px solid #ccc;
-}
-
-.my_works ol {
-    list-style-type: none;
-}
-
-.my_works ol li {
+h2{
     margin-bottom: 10px;
-    counter-increment: my-counter; 
+    color: #007bff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
-.my_works ol li::before {
-    content: counter(my-counter); 
-    margin-right: 5px;
-    font-weight: bold;
+ul, ol{
+    margin-left: 20px;
 }
 
-.testimonials {
+.testimonials{
     background-color: #f9f9f9;
     padding: 20px;
     text-align: center;
 }
 
-#gallery {
-    text-align: center;
+.my_works{
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 8px;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
-.gallery-images {
+.my_works ol{
+    list-style-type: none;
+}
+
+.my_works ol li{
+    margin-bottom: 10px;
+    counter-increment: my-counter; 
+}
+
+.my_works ol li::before{
+    content: counter(my-counter); 
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.gallery-images{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px;
     justify-items: center;
 }
 
-.gallery-images img {
+.gallery-images img{
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-images img:hover{
+    transform: scale(1.1);
 }
