@@ -1,8 +1,7 @@
 body {
     background-color: #221815;
+    font-family: 'ITC';
     font-size: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    src: url('ITC\ Machine\ Medium.otf');
     animation: fadeIn 10s forwards;
 }
 
@@ -13,6 +12,11 @@ img {
 
 h1, a, a:link, li{
     color: #FBC649;
+}
+
+@font-face {
+    font-family: 'ITC';
+    src: url("ITC Machine Medium.otf");
 }
 
 @keyframes fadeIn {
