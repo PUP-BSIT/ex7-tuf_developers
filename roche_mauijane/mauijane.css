@@ -6,7 +6,8 @@ body {
 
 .header {
     font-style: italic;
-    background-color: rgb(255, 208, 224);
+    background-image: url(./header\ \(1\).png);
+ 
     text-align: center;
     padding: 20px 0;
     
@@ -39,7 +40,7 @@ body {
 }
 .gallery h2 {
     font-style: italic;
-    background-color: rgb(255, 208, 224); 
+    background-color: #ffd1e0; 
     text-align: center;
     padding: 10px;
 }
