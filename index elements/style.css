@@ -1,5 +1,6 @@
 body {
     background-color: #221815;
+    font-family: 'ITC';
     font-size: 20px;
     animation: fadeIn 10s forwards;
 }
@@ -11,6 +12,11 @@ img {
 
 h1, a, a:link, li{
     color: #FBC649;
+}
+
+@font-face {
+    font-family: 'ITC';
+    src: url("ITC Machine Medium.otf");
 }
 
 @keyframes fadeIn {
