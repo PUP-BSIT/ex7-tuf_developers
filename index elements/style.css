@@ -9,7 +9,7 @@ img {
     height: 150px;
 }
 
-h1, a:link, li{
+h1, a, a:link, li{
     color: #FBC649;
 }
 
