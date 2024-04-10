@@ -1,15 +1,16 @@
 body {
-    background-image: url(Pink\ and\ White\ Abstract\ Pattern\ Desktop\ Wallpaper.png);
+    background-image: url(./background.png);
     margin: 0;
     padding: 0;
 }
 
 .header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-    background-image: url(./header\ \(2\).png);
+    background-image: url(./headerbg.png);
     text-align: center;
     padding: 20px 0;
-    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px hwb(0 100% 0%), 0 0 5px rgb(255, 255, 255)
+    text-shadow: 1px 1px 2px #fff, 0 0 5px #fff;
 }
 
 .container {
@@ -19,31 +20,32 @@ body {
     margin-top: 20px;
 }
 
-.my_hobbies,
-.myworks,
-.Testimonials {
+.my-hobbies,
+.my-works,
+.testimonials {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     text-align: center;
     width: 190px;
     padding: 30px;
-    border: 3px solid rgb(248, 209, 233);
+    border: 3px solid #fca3da;
     border-radius: 20px;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px hwb(312 84% 1%), 0 0 5px rgb(251, 191, 237);
+    text-shadow: 0 0 25px #ffffff, 0 0 5px #f6a0dd;
 }
-
 .gallery {  
     text-align: center;
     margin-top: 20px;
-    
+        
 }
 .gallery h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     background-color: #ffd1e0; 
     text-align: center;
     padding: 10px;
-    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px hwb(0 100% 0%), 0 0 5px rgb(255, 255, 255)
+    text-shadow: 1px 1px 2px #fff, 0 0 5px #fff;
 }
 
 .images img {
