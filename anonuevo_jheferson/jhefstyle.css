@@ -1,24 +1,24 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+body{
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f9f9f9;
     color: #333;
 }
 
-.header {
+.header{
     background-color: #007bff;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
-.header h1 {
+.header h1{
     background-image: url('bg.jpg'); /* Path to your background image */
     background-size: cover;
     background-position: center;
@@ -28,7 +28,7 @@ body {
     font-weight: bold;
 }
 
-.container {
+.container{
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
@@ -37,7 +37,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+h2{
     margin-bottom: 10px;
     color: #007bff;
     font-family: 'Open Sans', sans-serif;
@@ -46,17 +46,17 @@ h2 {
 }
 
 ul,
-ol {
+ol{
     margin-left: 20px;
 }
 
-.testimonials {
+.testimonials{
     background-color: #f9f9f9;
     padding: 20px;
     text-align: center;
 }
 
-.my-works {
+.my-works{
     background-color: #fff;
     border: 2px solid #007bff;
     border-radius: 8px;
@@ -64,35 +64,35 @@ ol {
     margin-bottom: 20px;
 }
 
-.my-works ol {
+.my-works ol{
     list-style-type: none;
 }
 
-.my-works ol li {
+.my-works ol li{
     margin-bottom: 10px;
     counter-increment: my-counter;
 }
 
-.my-works ol li::before {
+.my-works ol li::before{
     content: counter(my-counter);
     margin-right: 5px;
     font-weight: bold;
 }
 
-.gallery-images {
+.gallery-images{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px;
     justify-items: center;
 }
 
-.gallery-images img {
+.gallery-images img{
     max-width: 100%;
     height: auto;
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;
 }
 
-.gallery-images img:hover {
+.gallery-images img:hover{
     transform: scale(1.1);
 }
