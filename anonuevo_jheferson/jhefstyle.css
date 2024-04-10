@@ -45,7 +45,7 @@ ul, ol{
     text-align: center;
 }
 
-.my_works{
+.my-works{
     background-color: #fff;
     border: 2px solid #007bff;
     border-radius: 8px;
@@ -53,16 +53,16 @@ ul, ol{
     margin-bottom: 20px;
 }
 
-.my_works ol{
+.my-works ol{
     list-style-type: none;
 }
 
-.my_works ol li{
+.my-works ol li{
     margin-bottom: 10px;
     counter-increment: my-counter; 
 }
 
-.my_works ol li::before{
+.my-works ol li::before{
     content: counter(my-counter); 
     margin-right: 5px;
     font-weight: bold;
