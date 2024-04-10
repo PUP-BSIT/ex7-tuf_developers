@@ -51,7 +51,6 @@ a:link {
 
 .interests {
     background-color: rgba(6, 6, 6, 0.5);
-    border: 1px solid rgb(95, 95, 95);
     margin: 1rem;
     width: 250px;
     margin-bottom: 1rem;
@@ -68,7 +67,6 @@ a:link {
 
 .testimonials {
     background-color: rgba(6, 6, 6, 0.5);
-    border: 1px solid rgb(95, 95, 95);
     width: 250px;
     margin-bottom: 1rem;
     border-radius: 25px;
@@ -76,7 +74,6 @@ a:link {
 
 .gallery {
     background-color: rgba(6, 6, 6, 0.5);
-    border: 1px solid rgb(95, 95, 95);
     margin-bottom: 1rem;
     border-radius: 25px;
 }
