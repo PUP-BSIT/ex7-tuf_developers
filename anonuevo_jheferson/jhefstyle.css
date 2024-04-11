@@ -23,7 +23,7 @@ body{
 }
 
 .header h1{
-    background-image: url('bg.jpg'); /* Path to your background image */
+    background-image: url('bg.jpg');
     background-size: cover;
     background-position: center;
     padding: 20px;
